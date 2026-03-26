@@ -1,0 +1,14 @@
+[project]
+name = "finedaproject"
+version = "0.1.0"
+description = "Analyzing relationship between earnings surprises and stock returns"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "requests",
+    "python-dotenv",
+    "yfinance",
+    "matplotlib",
+    "statsmodels"
+]
